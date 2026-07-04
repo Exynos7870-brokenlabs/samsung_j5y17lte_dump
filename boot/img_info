@@ -1,0 +1,15 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+dt=dt.img
+kernel_size=16434488
+ramdisk_size=2405269
+dtb_size=751616
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0xf0000000
+cmd_line='androidboot.selinux=permissive androidboot.selinux=permissive'
+board="SRPQA18G003KU"
+format=gzip
